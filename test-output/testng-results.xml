@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="222" started-at="2018-05-13T17:50:09Z" finished-at="2018-05-13T17:50:10Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Day2.hometest()[pri:0, instance:test.Day2@2a2d45ba]" name="hometest" class="test.Day2"/>
+        <method signature="Day3.cartest2()[pri:0, instance:test.Day3@59f99ea]" name="cartest2" class="test.Day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="persoanl and home loan " duration-ms="109" started-at="2018-05-13T17:50:09Z" finished-at="2018-05-13T17:50:10Z">
+      <class name="test.Day1">
+        <test-method status="PASS" signature="apilogin(java.lang.String, java.lang.String)[pri:0, instance:test.Day1@7c16905e]" name="apilogin" duration-ms="3" started-at="2018-05-13T17:50:09Z" data-provider="getdata" finished-at="2018-05-13T17:50:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M@rtin@610]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogin -->
+        <test-method status="PASS" signature="apilogin(java.lang.String, java.lang.String)[pri:0, instance:test.Day1@7c16905e]" name="apilogin" duration-ms="1" started-at="2018-05-13T17:50:09Z" data-provider="getdata" finished-at="2018-05-13T17:50:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[henal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Henal@66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogin -->
+        <test-method status="PASS" signature="apilogin(java.lang.String, java.lang.String)[pri:0, instance:test.Day1@7c16905e]" name="apilogin" duration-ms="2" started-at="2018-05-13T17:50:10Z" data-provider="getdata" finished-at="2018-05-13T17:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[riya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riya@14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogin -->
+        <test-method status="PASS" signature="personaltest2()[pri:0, instance:test.Day1@7c16905e]" name="personaltest2" duration-ms="2" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personaltest2 -->
+        <test-method status="PASS" signature="weblogin()[pri:0, instance:test.Day1@7c16905e]" name="weblogin" duration-ms="1" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
+        <test-method status="PASS" signature="mobilelogin()[pri:0, instance:test.Day1@7c16905e]" name="mobilelogin" duration-ms="1" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogin -->
+        <test-method status="PASS" signature="personaltest(java.lang.String, java.lang.String)[pri:0, instance:test.Day1@7c16905e]" name="personaltest" duration-ms="3" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[martin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personaltest -->
+        <test-method status="PASS" signature="personal()[pri:0, instance:test.Day1@7c16905e]" name="personal" duration-ms="1" started-at="2018-05-13T17:50:10Z" depends-on-methods="test.Day1.personaltest2, test.Day1.weblogin" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method status="PASS" signature="home()[pri:0, instance:test.Day2@2a2d45ba]" name="home" duration-ms="14" started-at="2018-05-13T17:50:09Z" finished-at="2018-05-13T17:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="hometest()[pri:0, instance:test.Day2@2a2d45ba]" name="hometest" duration-ms="3" started-at="2018-05-13T17:50:09Z" finished-at="2018-05-13T17:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometest -->
+        <test-method status="PASS" signature="hometest2(java.lang.String)[pri:0, instance:test.Day2@2a2d45ba]" name="hometest2" duration-ms="2" started-at="2018-05-13T17:50:09Z" finished-at="2018-05-13T17:50:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometest2 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:test.Day2@2a2d45ba]" name="aftertest" is-config="true" duration-ms="1" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- test.Day2 -->
+    </test> <!-- persoanl and home loan  -->
+    <test name="car loan" duration-ms="14" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+      <class name="test.Day3">
+        <test-method status="PASS" signature="car()[pri:0, instance:test.Day3@59f99ea]" name="car" duration-ms="2" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method status="PASS" signature="cartest(java.lang.String)[pri:0, instance:test.Day3@59f99ea]" name="cartest" duration-ms="1" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartest -->
+        <test-method status="PASS" signature="cartest2()[pri:0, instance:test.Day3@59f99ea]" name="cartest2" duration-ms="1" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartest2 -->
+        <test-method status="PASS" signature="aftersui()[pri:0, instance:test.Day3@59f99ea]" name="aftersui" is-config="true" duration-ms="0" started-at="2018-05-13T17:50:10Z" finished-at="2018-05-13T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersui -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- car loan -->
+  </suite> <!-- Suite -->
+</testng-results>
